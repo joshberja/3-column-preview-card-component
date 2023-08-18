@@ -1,0 +1,109 @@
+:root {
+    --very-light-gray: hsl(0, 0%, 95%);
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+body {
+    font-family: "Luxend Deca", sans-serif;
+    padding: 2rem;
+}
+
+.very-light-gray {
+    color: var(--very-light-gray);
+}
+
+.bright-orange {
+    background-color: var(--bright-orange);
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.dark-cyan {
+    background-color: var(--dark-cyan);
+}
+
+.very-dark-cyan {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+p {
+    color: var(--very-light-gray);
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.btn {
+    border: 0;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.bright-orange > .btn {
+    color: var(--bright-orange);
+}
+
+.bright-orange > .btn:hover {
+    background: var(--bright-orange);
+    color: var(--very-light-gray);
+    border: solid var(--very-light-gray);
+}
+
+.dark-cyan > .btn {
+    color: var(--dark-cyan);
+}
+
+.dark-cyan > .btn:hover {
+    background-color: var(--dark-cyan);
+    color: var(--very-light-gray);
+    border: solid var(--very-light-gray);
+}
+
+.very-dark-cyan > .btn {
+    color: var(--very-dark-cyan);
+}
+
+.very-dark-cyan > .btn:hover {
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-gray);
+    border: solid var(--very-light-gray);
+}
+
+.card {
+    padding: 3rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: black;
+    margin-top: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 360px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bright-orange {
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+    .very-dark-cyan {
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+}

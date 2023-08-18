@@ -41,7 +41,7 @@ p {
 }
 
 .btn {
-    border: 0;
+    border: solid;
     border-radius: 2rem;
     padding: 0.5rem 1rem;
     margin-top: 1rem;
@@ -94,11 +94,10 @@ p {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 360px) {
+@media (min-width: 550px) {
     .container {
         display: flex;
         justify-content: center;
-        align-items: center;
     }
     .bright-orange {
         border-radius: 0.5rem 0 0 0.5rem;

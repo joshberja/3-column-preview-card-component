@@ -29,13 +29,13 @@ Users should be able to:
 
 #### Desktop preview
 
-![Desktop preview](./demo/3-column-preview-card-component-desktop-preview.png)
+- ![Desktop preview](./demo/3-column-preview-card-component-desktop-preview.png)
 #### Mobile preview
 
-![Mobile preview](./demo/3-column-preview-card-component-mobile-preview.png)
+- ![Mobile preview](./demo/3-column-preview-card-component-mobile-preview.png)
 
 ### Demo
-![Demo](./demo/3-column-preview-card-component-demo.mp4)
+- [YouTube Video](https://youtu.be/QFOKWJU1yJc)
 
 ### Links
 

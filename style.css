@@ -1,125 +1,142 @@
 :root {
-    --very-light-gray: hsl(0, 0%, 95%);
-    --bright-orange: hsl(31, 77%, 52%);
-    --dark-cyan: hsl(184, 100%, 22%);
-    --very-dark-cyan: hsl(179, 100%, 13%);
+  /* Define custom colors */
+  --very-light-gray: hsl(0, 0%, 95%);
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
 }
 
 body {
-    font-family: "Luxend Deca", sans-serif;
-    padding: 2rem;
+  /* Set font and padding for the body */
+  font-family: "Luxend Deca", sans-serif;
+  padding: 2rem;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  /* Center align the content in a column */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .card {
-    width: 215px;
-    min-width: 215px;
+  /* Set padding and maximum width for the card */
+  padding: 3rem;
+  max-width: 198px;
 }
 
 .very-light-gray {
-    color: var(--very-light-gray);
+  /* Set text color to very light gray */
+  color: var(--very-light-gray);
 }
 
 .bright-orange {
-    background-color: var(--bright-orange);
-    border-radius: 0.5rem 0.5rem 0 0;
+  /* Set background color and border radius for bright orange elements */
+  background-color: var(--bright-orange);
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .dark-cyan {
-    background-color: var(--dark-cyan);
+  /* Set background color for dark cyan elements */
+  background-color: var(--dark-cyan);
 }
 
 .very-dark-cyan {
-    background-color: var(--very-dark-cyan);
-    border-radius: 0 0 0.5rem 0.5rem;
+  /* Set background color and border radius for very dark cyan elements */
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 h2 {
-    font-family: "Big Shoulders Display", sans-serif;
-    text-transform: uppercase;
-    font-size: 2rem;
+  /* Set font, text transform, and font size for headings */
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
 
 p {
-    color: var(--very-light-gray);
-    font-size: 15px;
-    line-height: 1.5rem;
+  /* Set text color, font size, and line height for paragraphs */
+  color: var(--very-light-gray);
+  font-size: 15px;
+  line-height: 1.5rem;
 }
 
 .btn {
-    border: solid;
-    border-radius: 2rem;
-    padding: 0.75rem 1.5rem;
-    margin-top: 0.5rem;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
+  /* Set font, border, border radius, padding, margin, cursor, and transition for buttons */
+  font-family: "Luxend Deca", sans-serif;
+  border: solid;
+  border-radius: 2rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
 .bright-orange > .btn {
-    color: var(--bright-orange);
+  /* Set text color for bright orange buttons */
+  color: var(--bright-orange);
 }
 
 .bright-orange > .btn:hover {
-    background: var(--bright-orange);
-    color: var(--very-light-gray);
-    border: solid var(--very-light-gray);
+  /* Set background color, text color, and border for bright orange buttons on hover */
+  background: var(--bright-orange);
+  color: var(--very-light-gray);
+  border: solid var(--very-light-gray);
 }
 
 .dark-cyan > .btn {
-    color: var(--dark-cyan);
+  /* Set text color for dark cyan buttons */
+  color: var(--dark-cyan);
 }
 
 .dark-cyan > .btn:hover {
-    background-color: var(--dark-cyan);
-    color: var(--very-light-gray);
-    border: solid var(--very-light-gray);
+  /* Set background color, text color, and border for dark cyan buttons on hover */
+  background-color: var(--dark-cyan);
+  color: var(--very-light-gray);
+  border: solid var(--very-light-gray);
 }
 
 .very-dark-cyan > .btn {
-    color: var(--very-dark-cyan);
+  /* Set text color for very dark cyan buttons */
+  color: var(--very-dark-cyan);
 }
 
 .very-dark-cyan > .btn:hover {
-    background-color: var(--very-dark-cyan);
-    color: var(--very-light-gray);
-    border: solid var(--very-light-gray);
-}
-
-.card {
-    padding: 3rem;
+  /* Set background color, text color, and border for very dark cyan buttons on hover */
+  background-color: var(--very-dark-cyan);
+  color: var(--very-light-gray);
+  border: solid var(--very-light-gray);
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-    color: black;
-    margin-top: 2rem;
+  /* Set font size, text align, and color for attribution text */
+  font-size: 11px;
+  text-align: center;
+  color: black;
+  margin-top: 2rem;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  /* Set color for attribution links */
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 941px) {
-    .container {
-        display: flex;
-        flex-direction:row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 25vh;
-    }
-    .card {
-        width: 215px;
-        min-width: 215px;
-    }
-    .bright-orange {
-        border-radius: 0.5rem 0 0 0.5rem;
-    }
-    .very-dark-cyan {
-        border-radius: 0 0.5rem 0.5rem 0;
-    }
+  /* Media query for larger screens */
+  .container {
+    /* Center align the content in a row */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+  }
+  .bright-orange {
+    /* Adjust border radius for bright orange elements on larger screens */
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  .very-dark-cyan {
+    /* Adjust border radius for very dark cyan elements on larger screens */
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
 }
